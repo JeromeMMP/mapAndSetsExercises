@@ -22,11 +22,13 @@
 //   1: arr(3)=> false
 
 function hasDuplicate(arr){ 
-    if (new set(arr).size!==arr.length){
+    if (new Set(arr).size!==arr.length){
         return true
     }
     else false 
 }
+
+const hasDuplicate = arr => new Set(arr).size!==arr.length; 
 
 function vowelCount(str){
 
