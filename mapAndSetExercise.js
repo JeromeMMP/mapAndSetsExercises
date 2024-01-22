@@ -8,7 +8,7 @@
 
 // What does the following code return?
 // [...new Set("referee")].join("")
-// // the following string: 'refr'
+// // the following string: 'ref'
 
 // ## **Quick Questions #3**
 
